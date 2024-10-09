@@ -22,6 +22,32 @@ const statusText = {
   21: "Приостановлено",
   22: "Заключение передано"
 };
+/*
+const statusText = {
+  1: "Nowa",
+  2: "W toku - nadana sygnatura",
+  3: "W toku - wezwanie o braki formalne",
+  4: "W toku - wezwanie o braki merytoryczne",
+  5: "W toku - wezwanie z terminem podjęcia decyzji",
+  6: "W toku - organy opiniujące",
+  7: "W toku - II instancja",
+  8: "Przygotowany projekt decyzji pozytywnej",
+  9: "Przygotowany projekt decyzji negatywnej",
+  10: "Decyzja podpisana",
+  11: "Do zlecenia personalizacji kart",
+  12: "Karta do wydania",
+  13: "Dokumenty do odbioru",
+  14: "Zakończona",
+  15: "Wznowiona",
+  16: "Do archiwizacji WSC",
+  17: "Zarchiwizowana WSC",
+  18: "Do archiwizacji zakładowej",
+  19: "Zarchiwizowana zakładowo",
+  20: "Akta sprawy wypożyczone",
+  21: "Zawieszona",
+  22: "Opinia przekazana"
+};
+*/
 
 fetch("https://inpol.mazowieckie.pl/api/foreigner/active-proceedings", {
   headers: {
